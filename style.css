@@ -1,0 +1,128 @@
+/* reset css */
+*{
+margin: 0px;
+padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+header{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;
+    padding: left 15px;
+}
+
+
+header > nav > ul > li {
+    display: inline ;
+    padding: 0  10px;
+}
+
+
+header > nav > ul > li > a{
+    font-size: 1SSS5px;
+}
+
+.navbar > ul > li > a {
+
+    font-size: 50px;
+
+}
+.navbar > ul > li > a:hover {
+    color: chartreuse;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo a{
+    font-size: 32px;
+}
+
+#hero {
+    padding: 50px 0px;
+    text-align: center;
+}
+#hero h3{
+    font-size: 44px;
+    margin: 20px 0px;
+}
+#hero p{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+#hero div{
+    width: fit-content ;
+    margin: auto ;
+}
+#blog{
+    text-align: center ;
+    padding-bottom: 50px;
+}
+#blog h2{
+    font-size: 44px ;
+    margin-bottom: 20px ;
+}
+.grid-wrapper {
+    display: flex ;
+    flex-direction: column ;
+    row-gap: 20px ;
+
+}
+.card-grid{
+    width:fit-content ;
+    margin: auto ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    column-gap: 20px ;
+}
+.card-grid p {
+    font-size: 20px ;
+    margin: 10 0px ;
+    width: 300px;
+
+}
+footer {
+    background-color: black;
+    color: white;
+    
+}
+footer .services{
+    text-align: center;
+    padding: 10px 0px;
+}
+footer .services > span{
+    font-size: 23px;
+    padding: 0px 20px;
+}
+.footer h3{
+    font-size: 32px;
+    margin: 30px 0px;
+}
+.footer{
+    text-align: center;
+    margin: 20px 0px;
+}
+.footer p{
+    width: 400px;
+    margin: auto;
+}
+.footer ul{
+    margin: top 30px;
+    padding: 10px;
+}
+.footer li{
+    display: inline;
+}
+.footer ul li ai {
+    color: white;
+} 
